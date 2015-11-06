@@ -10,7 +10,7 @@
 
 @implementation RNOpenSettings
 
-RCT_EXPORT_MODULE();
+RCT_EXPORT_MODULE(RNOpenSettings);
 
 RCT_EXPORT_METHOD(openSettings) {
   [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];

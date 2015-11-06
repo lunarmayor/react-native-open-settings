@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <RCTBridge.h>
 
-@interface RNOpenSettings : NSObject
+@interface RNOpenSettings : NSObject <RCTBridgeModule>
 
 @end
