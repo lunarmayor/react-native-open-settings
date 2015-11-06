@@ -1,0 +1,14 @@
+{
+  "name": "react-native-open-settings",
+  "version": "1.0.0",
+  "description": "open app settings in react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Michael Morrissey",
+  "license": "ISC"
+}
