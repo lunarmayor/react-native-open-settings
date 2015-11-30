@@ -1,2 +1,2 @@
-var RNOpenSettings = require('NativeModules').RNOpenSettings;
+var RNOpenSettings = require('react-native').NativeModules.RNOpenSettings;
 module.exports = RNOpenSettings;
