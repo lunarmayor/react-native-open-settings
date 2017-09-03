@@ -10,5 +10,6 @@
     "react-native"
   ],
   "author": "Michael Morrissey",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": "https://github.com/lunarmayor/react-native-open-settings"
 }
