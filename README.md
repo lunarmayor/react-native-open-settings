@@ -35,25 +35,15 @@ include ':react-native-open-settings'
 project(':react-native-open-settings').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-open-settings/android')
 ```
 
-- Edit your `MainActivity.java` to look like this:
+- In either your `MainActivity.java` or `MainApplication.java`, you'll see an array of packages that looks like this:
+
 ```java
-package com.myapp;
-
-....
-import com.opensettings.OpenSettingsPackage
-
-public class MainActivity extends extends ReactActivity {
-
-    @Override
-    protected List<ReactPackage> getPackages() {
-        return Arrays.<ReactPackage>asList(
-                new MainReactPackage(),
-                new OpenSettingsPackage()
-        );
-    }
-    ...
-}
+protected List<ReactPackage> getPackages() {
+  return Arrays.<ReactPackage>asList(
+    new MainReactPackage(),
 ```
+
+- In that file, add `import com.opensettings.OpenSettingsPackage` to the list of imports at the top and add `new OpenSettingsPackage()` to the array of packages
 
 ## Usage
 
