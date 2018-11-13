@@ -35,14 +35,14 @@ include ':react-native-open-settings'
 project(':react-native-open-settings').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-open-settings/android')
 ```
 
-- Edit your `MainActivity.java` to look like this:
+- Edit your `MainApplication.java` to look like this:
 ```java
 package com.myapp;
 
 ....
 import com.opensettings.OpenSettingsPackage
 
-public class MainActivity extends extends ReactActivity {
+public class MainApplication extends Application implements ReactApplication {
 
     @Override
     protected List<ReactPackage> getPackages() {
