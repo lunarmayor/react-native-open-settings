@@ -8,8 +8,12 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
+import com.facebook.react.module.annotations.ReactModule;
 
+@ReactModule(name = OpenSettings.MODULE_NAME)
 public class OpenSettings extends ReactContextBaseJavaModule {
+
+    static final String MODULE_NAME = "RNOpenSettings";
 
     private ReactContext reactContext;
 
@@ -20,7 +24,7 @@ public class OpenSettings extends ReactContextBaseJavaModule {
 
     @Override
     public String getName() {
-        return "RNOpenSettings";
+        return this.MODULE_NAME;
     }
 
     //region React Native Methods
