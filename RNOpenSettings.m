@@ -7,6 +7,7 @@
 //
 
 #import "RNOpenSettings.h"
+#import <UIKit/UIKit.h>
 
 @implementation RNOpenSettings
 
