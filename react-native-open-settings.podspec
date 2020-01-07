@@ -8,10 +8,11 @@ Pod::Spec.new do |s|
   s.summary      = package['description']
   s.license      = package['license']
 
+  s.homepage = "https://github.com/lunarmayor/react-native-open-settings"
   s.authors      = package['author']
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/react-native-community/react-native-webview.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/lunarmayor/react-native-open-settings", :tag => "v#{s.version}" }
   s.source_files  = "RNOpenSettings.{h,m}"
 
   s.dependency 'React'
