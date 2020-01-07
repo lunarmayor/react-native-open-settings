@@ -11,6 +11,14 @@ npm install react-native-open-settings
 ```
 
 ### iOS
+
+```
+cd ios
+pod install
+```
+
+### ios Manual
+
 Add `React Native Open Settings` to project libraries.
 
 ### Android
